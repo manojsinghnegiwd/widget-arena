@@ -50,8 +50,6 @@ export interface NoteWidget extends Widget {
 
 // Interface for the event widget
 export interface EventWidget extends Widget {
-    // The event of the widget
-    event: string;
     // The date of the event
     date: Date;
 }

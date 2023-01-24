@@ -1,5 +1,5 @@
 import { FC, useState } from "react";
-import { WidgetTypes } from "../../constants/Widget";
+import { WidgetTypes } from "../../constants/widget";
 import { EventWidget, NoteWidget, ResponseWidget, URLWidget, WidgetType, WidgetTypeConfig } from "../../typings/widget";
 import FieldRenderer from "./FieldRenderer";
 
@@ -58,7 +58,6 @@ const NewWidgetForm: FC<NewWidgetFormProps> = ({ onAdd }) => {
           title: widgetTitle,
           description: widgetDescription,
           type: widgetType,
-          event: widgetFields.event,
           date: widgetFields.date
         }
         onAdd(EventWidgetData);

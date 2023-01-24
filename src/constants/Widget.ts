@@ -32,13 +32,6 @@ export const WidgetTypes: WidgetTypeConfig[] = [
         name: "Event",
         additionalFields: [
             {
-                name: "event",
-                type: InputType.TEXT,
-                label: "Event",
-                placeholder: "This is an event",
-                required: true,
-            },
-            {
                 name: "date",
                 type: InputType.DATE,
                 label: "Date",
